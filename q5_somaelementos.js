@@ -6,8 +6,8 @@ const n = Number(input('Digite um numero com 3 digitos: '))
 // Processamento
 cent = n/100
 r1 = n%100
-dez = r/10
-uni = r%10
+dez = r1/10
+uni = r1%10
 rtot = cent + dez + uni
 
 // Saída
